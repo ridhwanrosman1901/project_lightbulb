@@ -14,18 +14,27 @@
 
     <p class="mb-4"> 🌗 Click the buttons below to turn the lightbulb on or off.</p>
 
-    <!-- Initial lighbulb off -->
+    <!-- Initial lightbulb off -->
     <div>
         <img id="lightbulb" src="pic_bulboff.gif" class="mb-3" style="width: 100px;">
     </div>
 
     <!-- Lightbulb switch -->
     <div class="btn-group" role="group">
-        <button class="btn btn-primary" onclick="document.getElementById('lightbulb').src='pic_bulbon.gif'">Turn
-            ON</button>
-        <button class="btn btn-secondary" onclick="document.getElementById('lightbulb').src='pic_bulboff.gif'">Turn
-            OFF</button>
+        <button class="btn btn-primary" onclick="turnOn()">Turn ON</button>
+        <button class="btn btn-secondary" onclick="turnOff()">Turn OFF</button>
     </div>
+
+    <!-- JavaScript -->
+    <script>
+        function turnOn() {
+            document.getElementById('lightbulb').src = 'pic_bulbon.gif';
+        }
+
+        function turnOff() {
+            document.getElementById('lightbulb').src = 'pic_bulboff.gif';
+        }
+    </script>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
