@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbulb</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="text-center p-3">
+    <h2 class="my-4"> 🛸 Lightbulb</h2>
+
+    <p class="mb-4"> 🌗 Click the buttons below to turn the lightbulb on or off.</p>
+
+    <!-- Initial lighbulb off -->
+    <div>
+        <img id="lightbulb" src="pic_bulboff.gif" class="mb-3" style="width: 100px;">
+    </div>
+
+    <!-- Lightbulb switch -->
+    <div class="btn-group" role="group">
+        <button class="btn btn-primary" onclick="document.getElementById('lightbulb').src='pic_bulbon.gif'">Turn
+            ON</button>
+        <button class="btn btn-secondary" onclick="document.getElementById('lightbulb').src='pic_bulboff.gif'">Turn
+            OFF</button>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
