@@ -7,6 +7,9 @@ This is a simple web-based project that demonstrates how to switch a lightbulb i
 - Lightbulb image switches between 'on' and 'off' states.
 - Uses Bootstrap for styling and layout.
 
+## Preview
+![preview!](/preview.png)
+
 ## Technologies Used
 
 - HTML
@@ -28,3 +31,9 @@ This is a simple web-based project that demonstrates how to switch a lightbulb i
 1. Open the `index.html` file in your web browser.
 2. Click the "Turn ON" button to switch the lightbulb on.
 3. Click the "Turn OFF" button to switch the lightbulb off.
+
+## Contributing
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. I welcome all contributions that can improve the functionality and design of the calculator.
+
+## Contact Me
+If you have any questions, suggestions, or feedback, feel free to contact me.
